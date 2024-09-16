@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="">
+        <table>
+            <tr class="row">
+                <td class="column"><label for="fname">First Name</label></td>
+                <td class="col-2">
+                    <input type="text" id="fname" class="text-fields" placeholder="Enter First Name">
+                </td>
+            </tr>
+            <tr class="row">
+                <td class="column"><label for="lname">Last Name</label></td>
+                <td class="col-2">
+                    <input type="text" id="lname" class="text-fields" placeholder="Enter Last Name">
+                </td>
+            </tr>
+            <tr class="row">
+                <td class="column"><label for="uname">Username</label></td>
+                <td class="col-2">
+                    <input type="text" id="uname" class="text-fields" placeholder="Enter Username">
+                </td>
+            </tr>
+            <tr class="row">
+                <td class="column"><label for="email">Email</label></td>
+                <td class="col-2">
+                    <input type="email" id="email" class="text-fields" placeholder="Enter Email">
+                </td>
+            </tr>
+            <tr class="row">
+                <td class="column"><label for="password">Password</label></td>
+                <td class="col-2">
+                    <input type="password" id="password" class="text-fields" placeholder="Enter Password">
+                </td>
+            </tr>
+            <tr class="row">
+                <td class="column"><label for="gender">Gender</label></td>
+                <td class="sp-col">
+                    <input type="radio" class="radio" name="gender" value="male"> Male &nbsp;
+                    <input type="radio" class="radio" name="gender" value="female"> Female
+                </td>
+            </tr>
+            <tr class="row">
+                <td class="column"><label for="hobby">Hobby</label></td>
+                <td class="sp-col">
+                    <input type="checkbox" class="check" name="hobby" value="reading"> Reading &nbsp;
+                    <input type="checkbox" class="check" name="hobby" value="writing"> Writing &nbsp;
+                    <input type="checkbox" class="check" name="hobby" value="singing"> Singing
+                </td>
+            </tr>
+            <tr class="row">
+                <td class="column"><label for="city">City</label></td>
+                <td class="col-2">
+                    <input type="text" id="city" class="text-fields" placeholder="Enter City">
+                </td>
+            </tr>
+            <tr class="row">
+                <td class="column"><label for="country">Country</label></td>
+                <td class="col-2">
+                    <input type="text" id="country" class="text-fields" placeholder="Enter Country">
+                </td>
+            </tr>
+            <tr class="row">
+                <td class="column"><label for="car">Select Car</label></td>
+                <td class="col-2"><select name="car" id="car">
+                        <option value="Nano">Nano</option>
+                        <option value="safari">Safari</option>
+                        <option value="nexon">Nexon</option>
+                    </select>
+                </td>
+            </tr>
+            <tr class="row">
+                <td class="column"><label for="comment">Comment</label></td>
+                <td class="col-2"><textarea id="comment" cols="46" rows="3"></textarea></td>
+            </tr>
+            <tr class="row">
+                <td class="btn-box" colspan="2">
+                    <input type="submit" value="Save"> &nbsp;
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
